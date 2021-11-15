@@ -34,7 +34,7 @@ function Home() {
             </ul>
           </div>
           {/* Toogle Menu */}
-          <div className='toggle__menu'>
+          {/* <div className='toggle__menu'>
             <svg
               onClick={() => setShow(!show)}
               xmlns='http://www.w3.org/2000/svg'
@@ -49,8 +49,8 @@ function Home() {
                 d='M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z'
               />
             </svg>
-          </div>
-          {show ? (
+          </div> */}
+          {/* {show ? (
             <div className='sideNavbar'>
               <ul className='sidebar d__flex'>
                 <li className='sideNavbar'>
@@ -69,7 +69,7 @@ function Home() {
                 </li>
               </ul>
             </div>
-          ) : null}
+          ) : null} */}
         </div>
         {/* HOME CONTENT */}
         <div className='container'>
@@ -78,7 +78,7 @@ function Home() {
               <h1 className='home__text pz__10'>WELCOME</h1>
               <h2 className='home__text pz__10'>Hey, I’m Orel Alon,</h2>
               <h3 className='home__text sweet pz__10'>Full Stack Developer.</h3>
-              {/* <h4 className='home__text pz__10'>based in USA.</h4> */}
+              {/* <h4 className='home__text pz__10'>From Israel.</h4> */}
             </div>
           </div>
         </div>
