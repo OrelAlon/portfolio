@@ -4,6 +4,7 @@
 img.project__img {
   border-radius: 10px;
   width: 100%;
+  min-height: 150%;
   object-fit: cover;
   transition: 0.4s;
   opacity: 0.7;
@@ -23,7 +24,7 @@ img.project__img::after {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f9004d;
+  background-color: #00f929;
   border-radius: 10px;
   transition: 0.4s;
   opacity: 0.3;
@@ -66,8 +67,8 @@ a.project__btn {
   transition: 0.4s ease;
 }
 a.project__btn:hover {
-  background-color: #f9004d;
-  border: 2px solid #f9004d;
+  background-color: #087a41;
+  border: 2px solid #1bb64a;
 }
 button.btn {
   padding: 15px 20px;

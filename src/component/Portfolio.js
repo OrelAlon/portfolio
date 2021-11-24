@@ -1,8 +1,8 @@
 import React from 'react';
 import '..//css/Portfolio.css';
-import Project1 from '../img/portfolio-1.jpg';
-import Project2 from '../img/portfolio-2.jpg';
-import Project3 from '../img/portfolio-3.jpg';
+import Project1 from '../img/food.jpeg';
+import Project2 from '../img/mine-start.jpeg';
+import Project3 from '../img/dice.jpeg';
 import Project4 from '../img/portfolio-4.jpg';
 
 function Portfolio() {
@@ -28,12 +28,14 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>1</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
-                  View Details
+                <h4 className='project__text'>Nutrition Tracking</h4>
+                <h5 className='project__text'>write something about it</h5>
+
+                <a
+                  href='https://pedantic-easley-e3b479.netlify.app/'
+                  className='project__btn'
+                >
+                  View
                 </a>
               </div>
             </div>
@@ -49,10 +51,11 @@ function Portfolio() {
               </div>
               <div className='project__meta absolute'>
                 <h5 className='project__text'>2</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
+                <h4 className='project__text'>Minecraft</h4>
+                <a
+                  href='https://cocky-dijkstra-a469d1.netlify.app/'
+                  className='project__btn'
+                >
                   View Details
                 </a>
               </div>
@@ -69,10 +72,11 @@ function Portfolio() {
               </div>
               <div className='project__meta absolute'>
                 <h5 className='project__text'>3</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
+                <h4 className='project__text'>Dice Game</h4>
+                <a
+                  href='https://awesome-turing-93446d.netlify.app/'
+                  className='project__btn'
+                >
                   View Details
                 </a>
               </div>
