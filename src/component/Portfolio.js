@@ -28,7 +28,7 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
+                <h5 className='project__text'>1</h5>
                 <h4 className='project__text'>
                   Getting tickets to the big show
                 </h4>
@@ -48,7 +48,7 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
+                <h5 className='project__text'>2</h5>
                 <h4 className='project__text'>
                   Getting tickets to the big show
                 </h4>
@@ -68,7 +68,7 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
+                <h5 className='project__text'>3</h5>
                 <h4 className='project__text'>
                   Getting tickets to the big show
                 </h4>
@@ -79,7 +79,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className='col__3'>
+          {/* <div className='col__3'>
             <div className='project__box pointer relative'>
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
@@ -101,6 +101,26 @@ function Portfolio() {
 
           <div className='col__3'>
             <div className='project__box pointer relative'>
+              <div className='col__3'>
+                <div className='project__box pointer relative'>
+                  <div className='project__box__img pointer relative'>
+                    <div className='project__img__box'>
+                      <img src={Project4} alt='' className='project__img' />
+                    </div>
+                    <div className='mask__effect'></div>
+                  </div>
+                  <div className='project__meta absolute'>
+                    <h5 className='project__text'>Development</h5>
+                    <h4 className='project__text'>
+                      Getting tickets to the big show
+                    </h4>
+                    <a href='#' className='project__btn'>
+                      View Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
                   <img src={Project3} alt='' className='project__img' />
@@ -116,10 +136,10 @@ function Portfolio() {
                   View Details
                 </a>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
 
-          <div className='col__3'>
+          {/* <div className='col__3'>
             <div className='project__box pointer relative'>
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
@@ -137,11 +157,11 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
+          {/* <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
             <button className='view__more pointer btn'>View more</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
