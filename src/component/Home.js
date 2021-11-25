@@ -14,9 +14,6 @@ function Home() {
     <div className='home' id='Home'>
       <div className='home__bg'>
         <div className='header d__flex align__items__center pxy__30'>
-          <div className='logo'>
-            <img src={logo} alt='' />
-          </div>
           <div className='navigation pxy__30'>
             <ul className='navbar d__flex'>
               <a href='#Home'>
@@ -32,6 +29,13 @@ function Home() {
                 <li className='nav__items mx__15'>Contact</li>
               </a>
             </ul>
+          </div>
+          <div>
+            <a href='#Home' className='logo-right'>
+              <div className='logo'>
+                <img src={logo} alt='' />
+              </div>
+            </a>
           </div>
           {/* Toogle Menu */}
           {/* <div className='toggle__menu'>

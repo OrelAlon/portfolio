@@ -63,7 +63,7 @@ ul.sidebar.d__flex {
   position: fixed;
   right: 0%;
   background: #010101;
-  justify-content: center;
+  justify-content: space-between;
   width: 300px;
   top: 0%;
   flex-direction: column;
@@ -71,13 +71,14 @@ ul.sidebar.d__flex {
 li.sideNavbar {
   padding: 25px 30px;
 }
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .header {
     justify-content: space-between;
   }
   .navigation.pxy__30 {
-    display: none;
+    /* display: none; */
   }
   h2.white.pz__10 {
     font-size: 50px !important;
