@@ -18,12 +18,14 @@ function About() {
             <h1 className='about__heading'>About Me</h1>
             <div className='about__meta'>
               <p className='about__text p__color'>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                I'm a web developer with a focus on the MERN stack, but still
+                exploring other technologies and frameworks that catch my
+                interest! Recently, I graduated from the AppleSeeds Full-Stack
+                Bootcamp. I am passionate about coding and solving problems
+                through code, and I am excited to work alongside other amazing
+                programmers and learn so much more!
               </p>
-
+              ​
               <div className='about__button d__flex align__items__center'>
                 <a href='https://drive.google.com/file/d/17M3mIrE9p2Fia-WK9_MxSS4lZhnhsXY4/view?usp=sharing'>
                   <button className='about btn pointer'>Download Cv</button>

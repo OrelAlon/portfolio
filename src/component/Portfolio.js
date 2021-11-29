@@ -10,12 +10,9 @@ function Portfolio() {
     <div className='project component__space' id='Portfolio'>
       <div className='heading'>
         <h1 className='heading'>My Project</h1>
-        <p className='heading p__color'>
-          There are many variations of passages of Lorem Ipsum available,
-        </p>
-        <p className='heading p__color'>
-          but the majority have suffered alteration.
-        </p>
+        {/* <p className='heading p__color'>
+          There are many variations of passages of Lorem Ipsum available
+        </p> */}
       </div>
       <div className='container'>
         <div className='row'>
@@ -82,8 +79,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-
-          {/* <div className='col__3'>
+        </div>
+        {/* <div className='col__3'>
             <div className='project__box pointer relative'>
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
@@ -141,9 +138,9 @@ function Portfolio() {
                 </a>
               </div>
             </div> */}
-          {/* </div> */}
+        {/* </div> */}
 
-          {/* <div className='col__3'>
+        {/* <div className='col__3'>
             <div className='project__box pointer relative'>
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
@@ -163,10 +160,9 @@ function Portfolio() {
             </div>
           </div> */}
 
-          {/* <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
+        {/* <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
             <button className='view__more pointer btn'>View more</button>
           </div> */}
-        </div>
       </div>
     </div>
   );
