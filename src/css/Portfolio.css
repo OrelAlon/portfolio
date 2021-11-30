@@ -30,7 +30,7 @@ img.project__img::after {
   height: 100%;
   background-color: #000;
   z-index: 1;
-  opacity: 1;
+  opacity: 1.2;
 }
 .mask__effect {
   width: 100%;
@@ -38,18 +38,18 @@ img.project__img::after {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #00f929;
+  /* background-color: #00f929; */
   border-radius: 10px;
   transition: 0.4s;
-  opacity: 0.3;
+  opacity: 0.7;
   display: none;
 }
 .project__box:hover .mask__effect {
   display: inline;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .project__box:hover img.project__img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .project__meta.absolute {
   top: 0%;
@@ -81,8 +81,8 @@ a.project__btn {
   transition: 0.4s ease;
 }
 a.project__btn:hover {
-  background-color: #087a41;
-  border: 2px solid #1bb64a;
+  /* background-color: #087a41;
+  border: 2px solid #1bb64a; */
 }
 button.btn {
   padding: 15px 20px;
@@ -111,4 +111,14 @@ button.view__more:hover {
   h4.project__text {
     font-size: 18px;
   }
+}
+
+.notdisplayed {
+  display: none;
+}
+
+.displayed {
+  display: flex;
+  height: 20px;
+  margin: auto;
 }

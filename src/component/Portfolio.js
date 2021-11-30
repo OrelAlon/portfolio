@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Project from './project';
+
 import '..//css/Portfolio.css';
 import Project1 from '../img/food.jpeg';
 import Project2 from '../img/mine-start.jpeg';
@@ -16,7 +19,12 @@ function Portfolio() {
       </div>
       <div className='container'>
         <div className='row'>
+          <Project id={Project1} />
+          <Project id={Project2} />
+          <Project id={Project3} />
+          {/*    
           <div className='col__3'>
+
             <div className='project__box pointer relative'>
               <div className='project__box__img pointer relative'>
                 <div className='project__img__box'>
@@ -26,7 +34,6 @@ function Portfolio() {
               </div>
               <div className='project__meta absolute'>
                 <h4 className='project__text'>Nutrition Tracking</h4>
-                <h5 className='project__text'>write something about it</h5>
 
                 <a
                   href='https://pedantic-easley-e3b479.netlify.app/'
@@ -47,7 +54,6 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>2</h5>
                 <h4 className='project__text'>Minecraft</h4>
                 <a
                   href='https://cocky-dijkstra-a469d1.netlify.app/'
@@ -68,7 +74,6 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>3</h5>
                 <h4 className='project__text'>Dice Game</h4>
                 <a
                   href='https://awesome-turing-93446d.netlify.app/'
@@ -78,7 +83,7 @@ function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
         {/* <div className='col__3'>
             <div className='project__box pointer relative'>
@@ -149,7 +154,7 @@ function Portfolio() {
                 <div className='mask__effect'></div>
               </div>
               <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
+                  <h5 className='project__text'>Development</h5>
                 <h4 className='project__text'>
                   Getting tickets to the big show
                 </h4>
