@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Home.css';
 import logo from '../img/logo.png';
+import { Link } from 'react-scroll';
 
 function Home() {
   // fixed Header
@@ -16,18 +17,18 @@ function Home() {
         <div className='header d__flex align__items__center pxy__30'>
           <div className='navigation pxy__30'>
             <ul className='navbar d__flex'>
-              <a href='#Home'>
+              <Link to='Home' smooth={true} duration={1000}>
                 <li className='nav__items mx__15'>Home</li>
-              </a>
-              <a href='#About'>
+              </Link>
+              <Link to='About' smooth={true} duration={1000}>
                 <li className='nav__items mx__15'>About</li>
-              </a>
-              <a href='#Portfolio'>
+              </Link>
+              <Link to='Portfolio' smooth={true} duration={1000}>
                 <li className='nav__items mx__15'>Portfolio</li>
-              </a>
-              <a href='#Contact'>
+              </Link>
+              <Link to='Contact' smooth={true} duration={1000}>
                 <li className='nav__items mx__15'>Contact</li>
-              </a>
+              </Link>
             </ul>
           </div>
           <div>
