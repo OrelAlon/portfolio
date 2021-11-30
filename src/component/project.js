@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 import Project1 from '../img/food.jpeg';
 import Project2 from '../img/mine-start.jpeg';
 import Project3 from '../img/dice.jpeg';
@@ -33,15 +38,15 @@ function Project(props) {
         </div>
         <div className={display}>
           <div className='project__meta absolute '>
-            <h4 className='project__text'>Nutrition Tracking</h4>
-
-            <a
-              href='https://pedantic-easley-e3b479.netlify.app/'
-              target='_blank'
-              className='project__btn'
-            >
-              View
-            </a>
+            <h5 className='project__text'>{props.name}</h5>
+            <div>
+              <a href={props.git} target='_blank'>
+                <FontAwesomeIcon icon={faGithub} className='iconPro' />
+              </a>
+              <a href={props.href} target='_blank'>
+                <FontAwesomeIcon icon={faExternalLinkAlt} className='iconPro' />
+              </a>
+            </div>
           </div>
         </div>
       </div>

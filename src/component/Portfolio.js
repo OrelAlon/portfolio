@@ -19,155 +19,24 @@ function Portfolio() {
       </div>
       <div className='container'>
         <div className='row'>
-          <Project id={Project1} />
-          <Project id={Project2} />
-          <Project id={Project3} />
-          {/*    
-          <div className='col__3'>
-
-            <div className='project__box pointer relative'>
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project1} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                <h4 className='project__text'>Nutrition Tracking</h4>
-
-                <a
-                  href='https://pedantic-easley-e3b479.netlify.app/'
-                  className='project__btn'
-                >
-                  View
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className='col__3'>
-            <div className='project__box pointer relative'>
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project2} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                <h4 className='project__text'>Minecraft</h4>
-                <a
-                  href='https://cocky-dijkstra-a469d1.netlify.app/'
-                  className='project__btn'
-                >
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className='col__3'>
-            <div className='project__box pointer relative'>
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project3} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                <h4 className='project__text'>Dice Game</h4>
-                <a
-                  href='https://awesome-turing-93446d.netlify.app/'
-                  className='project__btn'
-                >
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>*/}
+          <Project
+            id={Project1}
+            href='https://pedantic-easley-e3b479.netlify.app/'
+            git='https://github.com/OrelAlon/Food_Ordering_App'
+            name='Nutrition Tracking'
+          />
+          <Project
+            id={Project2}
+            href='https://cocky-dijkstra-a469d1.netlify.app/'
+            git=''
+            name='Minecraft'
+          />
+          <Project
+            id={Project3}
+            href='https://awesome-turing-93446d.netlify.app/'
+            name='Dice-Game'
+          />
         </div>
-        {/* <div className='col__3'>
-            <div className='project__box pointer relative'>
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project4} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className='col__3'>
-            <div className='project__box pointer relative'>
-              <div className='col__3'>
-                <div className='project__box pointer relative'>
-                  <div className='project__box__img pointer relative'>
-                    <div className='project__img__box'>
-                      <img src={Project4} alt='' className='project__img' />
-                    </div>
-                    <div className='mask__effect'></div>
-                  </div>
-                  <div className='project__meta absolute'>
-                    <h5 className='project__text'>Development</h5>
-                    <h4 className='project__text'>
-                      Getting tickets to the big show
-                    </h4>
-                    <a href='#' className='project__btn'>
-                      View Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project3} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                <h5 className='project__text'>Development</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
-                  View Details
-                </a>
-              </div>
-            </div> */}
-        {/* </div> */}
-
-        {/* <div className='col__3'>
-            <div className='project__box pointer relative'>
-              <div className='project__box__img pointer relative'>
-                <div className='project__img__box'>
-                  <img src={Project4} alt='' className='project__img' />
-                </div>
-                <div className='mask__effect'></div>
-              </div>
-              <div className='project__meta absolute'>
-                  <h5 className='project__text'>Development</h5>
-                <h4 className='project__text'>
-                  Getting tickets to the big show
-                </h4>
-                <a href='#' className='project__btn'>
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-        {/* <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
-            <button className='view__more pointer btn'>View more</button>
-          </div> */}
       </div>
     </div>
   );
