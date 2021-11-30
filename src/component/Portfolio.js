@@ -3,16 +3,16 @@ import React from 'react';
 import Project from './project';
 
 import '..//css/Portfolio.css';
-import Project1 from '../img/food.jpeg';
-import Project2 from '../img/mine-start.jpeg';
-import Project3 from '../img/dice.jpeg';
+import Project1 from '../img/food.png';
+import Project2 from '../img/mine.png';
+import Project3 from '../img/dice.png';
 import Project4 from '../img/portfolio-4.jpg';
 
 function Portfolio() {
   return (
     <div className='project component__space' id='Portfolio'>
       <div className='heading'>
-        <h1 className='heading'>Some Of My Projects </h1>
+        <h1 className='heading'>Some Of My Project's... </h1>
         {/* <p className='heading p__color'>
           There are many variations of passages of Lorem Ipsum available
         </p> */}

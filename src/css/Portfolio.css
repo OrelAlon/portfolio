@@ -26,6 +26,9 @@ h1.heading {
   justify-items: center;
   text-align: center;
 }
+.project__img {
+  max-height: 500px;
+}
 img.project__img::after {
   content: '';
   width: 50%;
