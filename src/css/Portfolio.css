@@ -10,16 +10,17 @@ img.project__img {
 h1.heading {
   margin-bottom: 10px;
   font-weight: 700;
-  text-align: start;
   font-family: Montserrat, sans-serif;
   font-size: 40px;
 }
 .heading {
   max-width: 90%;
   /* display: flex; */
-  padding: 20px;
+  padding: 10px;
   margin: auto;
   justify-content: center;
+  text-align: center;
+  margin-right: 160px;
 }
 .project__img__box {
   justify-items: center;

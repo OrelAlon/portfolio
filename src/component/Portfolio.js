@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <div className='project component__space' id='Portfolio'>
       <div className='heading'>
-        <h1 className='heading'>My Project</h1>
+        <h1 className='heading'>Some Of My Projects </h1>
         {/* <p className='heading p__color'>
           There are many variations of passages of Lorem Ipsum available
         </p> */}
@@ -28,12 +28,13 @@ function Portfolio() {
           <Project
             id={Project2}
             href='https://cocky-dijkstra-a469d1.netlify.app/'
-            git=''
+            git='https://github.com/OrelAlon/Minecraft-2D-Game'
             name='Minecraft'
           />
           <Project
             id={Project3}
             href='https://awesome-turing-93446d.netlify.app/'
+            git='https://github.com/OrelAlon/Dice-Game'
             name='Dice-Game'
           />
         </div>
