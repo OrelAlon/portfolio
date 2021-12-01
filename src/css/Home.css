@@ -101,4 +101,13 @@ li.sideNavbar {
   h4.home__text {
     font-size: 45px;
   }
+  li.nav__items {
+    font-size: 12px;
+  }
+  .pxy__30 {
+    padding: 3px;
+  }
+  .logo img {
+    max-width: 50px;
+  }
 }

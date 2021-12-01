@@ -32,11 +32,16 @@ function Home() {
             </ul>
           </div>
           <div>
-            <a href='#Home' className='logo-right'>
+            <Link
+              to='Home'
+              smooth={true}
+              duration={1000}
+              className='logo-right'
+            >
               <div className='logo'>
                 <img src={logo} alt='' />
               </div>
-            </a>
+            </Link>
           </div>
           {/* Toogle Menu */}
           {/* <div className='toggle__menu'>

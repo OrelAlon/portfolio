@@ -130,4 +130,10 @@ button.view__more:hover {
     font-size: 3rem;
     margin: 25px;
   }
+  h1.heading {
+    font-size: 25px;
+  }
+  .heading {
+    margin-right: auto;
+  }
 }
