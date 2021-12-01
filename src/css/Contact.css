@@ -67,4 +67,9 @@ button.btn.contact.pointer {
   .icon {
     font-size: 30px;
   }
+
+  .contact__box {
+    margin: auto;
+    text-align: center;
+  }
 }
