@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/About.css';
+import { Link } from 'react-scroll';
+
 // import aboutImg from './img/about.jpg';
 function About() {
   //  Up To Top Btn
@@ -37,7 +39,12 @@ function About() {
       </div>
       {/* UP TO TOP BTN */}
       <div className='up__to__top__btn'>
-        <a href='#' className='bottom__to__top'>
+        <Link
+          to='home'
+          smooth={true}
+          duration={1000}
+          className='bottom__to__top'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='16'
@@ -51,7 +58,7 @@ function About() {
               d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );
