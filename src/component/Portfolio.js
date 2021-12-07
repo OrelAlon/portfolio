@@ -22,7 +22,7 @@ function Portfolio() {
           <Project
             id={Project1}
             href='https://pedantic-easley-e3b479.netlify.app/'
-            git='https://github.com/OrelAlon/Food_Ordering_App'
+            git='https://github.com/OrelAlon/Weekly_nutrition_diary'
             name='Nutrition Tracking'
           />
           <Project
