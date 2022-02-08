@@ -168,3 +168,28 @@ button.about.btn.pointer:hover {
     flex-wrap: wrap;
   }
 }
+
+svg {
+  height: 100px;
+  width: 100px;
+}
+.grid-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 5px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
+
+.git {
+  background-color: white;
+  width: fit-content;
+}
+
+.my-skills {
+  font-size: 50px;
+}
