@@ -19,6 +19,7 @@ function About() {
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
+              {/*  */}
               <p className="about__text p__color">
                 I'm a Web Developer with a focus on the MERN Stack, still
                 exploring other technologies and frameworks that catch my
