@@ -1,45 +1,45 @@
-import React, { useState } from 'react';
-import '../css/Home.css';
-import logo from '../img/logo.png';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import "../css/Home.css";
+import logo from "../img/logo.png";
+import { Link } from "react-scroll";
 
 function Home() {
   // fixed Header
-  window.addEventListener('scroll', function () {
-    const header = document.querySelector('.header');
-    header.classList.toggle('active', window.scrollY > 0);
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
   const [show, setShow] = useState(true);
   return (
-    <div className='home' id='Home'>
-      <div className='home__bg'>
-        <div className='header d__flex align__items__center pxy__30'>
-          <div className='navigation pxy__30'>
-            <ul className='navbar d__flex'>
-              <Link to='Home' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>Home</li>
+    <div className="home" id="Home">
+      <div className="home__bg">
+        <div className="header d__flex align__items__center pxy__30">
+          <div className="navigation pxy__30">
+            <ul className="navbar d__flex ">
+              <Link to="Home" smooth={true} duration={1000}>
+                <li className="nav__items mx__15 pointer">Home</li>
               </Link>
-              <Link to='About' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>About</li>
+              <Link to="About" smooth={true} duration={1000}>
+                <li className="nav__items mx__15">About</li>
               </Link>
-              <Link to='Portfolio' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>Portfolio</li>
+              <Link to="Portfolio" smooth={true} duration={1000}>
+                <li className="nav__items mx__15">Portfolio</li>
               </Link>
-              <Link to='Contact' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>Contact</li>
+              <Link to="Contact" smooth={true} duration={1000}>
+                <li className="nav__items mx__15">Contact</li>
               </Link>
             </ul>
           </div>
           <div>
             <Link
-              to='Home'
+              to="Home"
               smooth={true}
               duration={1000}
-              className='logo-right'
+              className="logo-right"
             >
-              <div className='logo'>
-                <img src={logo} alt='' />
+              <div className="logo">
+                <img src={logo} alt="" />
               </div>
             </Link>
           </div>
@@ -82,12 +82,12 @@ function Home() {
           ) : null} */}
         </div>
         {/* HOME CONTENT */}
-        <div className='container'>
-          <div className='home__content'>
-            <div className='home__meta'>
-              <h1 className='home__text pz__10'>WELCOME</h1>
-              <h2 className='home__text pz__10'>Hey, I’m Orel Alon,</h2>
-              <h3 className='home__text sweet pz__10'>Full Stack Developer.</h3>
+        <div className="container">
+          <div className="home__content">
+            <div className="home__meta">
+              <h1 className="home__text pz__10">WELCOME</h1>
+              <h2 className="home__text pz__10">Hey, I’m Orel Alon,</h2>
+              <h3 className="home__text sweet pz__10">Full Stack Developer.</h3>
               {/* <h4 className='home__text pz__10'>From Israel.</h4> */}
             </div>
           </div>

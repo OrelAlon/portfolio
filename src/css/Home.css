@@ -12,6 +12,7 @@
 li.nav__items {
   font-size: 18px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 .home__content {
   padding: 125px 0px;
@@ -103,6 +104,7 @@ li.sideNavbar {
   }
   li.nav__items {
     font-size: 12px;
+    cursor: pointer;
   }
   .pxy__30 {
     padding: 3px;
