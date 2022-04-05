@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/Contact.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,8 +18,13 @@ function Contact() {
               <h1 className="hire__text">Contact Me. </h1>{" "}
               {/* <p className='hire__text white'>I am looking for my first job:</p> */}
               <p className="hire__text white">
-                <a href="tel:+972526707895"><strong>052-6707895</strong></a> or email{" "}
-                <a href="mailto:orela231089@gmail.com"><strong>orela231089@gmail.com</strong></a>
+                <a href="tel:+972526707895">
+                  <strong>052-6707895</strong>
+                </a>{" "}
+                or email{" "}
+                <a href="mailto:orela231089@gmail.com">
+                  <strong>orela231089@gmail.com</strong>
+                </a>
               </p>
             </div>
             <div className="icons">

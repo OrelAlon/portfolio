@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/About.css";
 import { Link } from "react-scroll";
 
