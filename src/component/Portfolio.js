@@ -16,16 +16,13 @@ function Portfolio() {
     <div className="project component__space" id="Portfolio">
       <div className="heading">
         <h1 className="heading">Some Of My Project's... </h1>
-        {/* <p className='heading p__color'>
-          There are many variations of passages of Lorem Ipsum available
-        </p> */}
       </div>
       <div className="container">
         <div className="row">
           <Project
             id={Project1}
-            href="https://pedantic-easley-e3b479.netlify.app/"
-            git="https://github.com/OrelAlon/Weekly_nutrition_diary"
+            href="https://nutrition-tracking-app.netlify.app/"
+            git="https://github.com/OrelAlon/nutrition-app"
             name="Nutrition Tracking"
           />
           <Project
