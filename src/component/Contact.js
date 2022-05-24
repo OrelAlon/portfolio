@@ -10,43 +10,43 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
-    <div className="contact component__space" id="Contact">
-      <div className="row">
-        <div className="col__2">
-          <div className="contact__box">
-            <div className="contact__meta">
-              <h1 className="hire__text">Contact Me. </h1>{" "}
+    <div className='contact component__space' id='Contact'>
+      <div className='row'>
+        <div className='col__2'>
+          <div className='contact__box'>
+            <div className='contact__meta'>
+              <h1 className='hire__text'>Contact Me. </h1>{" "}
               {/* <p className='hire__text white'>I am looking for my first job:</p> */}
-              <p className="hire__text white">
-                <a href="tel:+972526707895">
+              <p className='hire__text white'>
+                <a href='tel:+972526707895'>
                   <strong>052-6707895</strong>
                 </a>{" "}
                 or email{" "}
-                <a href="mailto:orela231089@gmail.com">
+                <a href='mailto:orela231089@gmail.com'>
                   <strong>orela231089@gmail.com</strong>
                 </a>
               </p>
             </div>
-            <div className="icons">
-              <a href="https://github.com/OrelAlon" target="_blank">
-                <FontAwesomeIcon icon={faGithub} className="icon" />
+            <div className='icons'>
+              <a href='https://github.com/OrelAlon' target='_blank'>
+                <FontAwesomeIcon icon={faGithub} className='icon' />
               </a>
               <a
-                href="https://linkedin.com/in/orel-alon-090689184"
-                target="_blank"
+                href='https://linkedin.com/in/orel-alon-090689184'
+                target='_blank'
               >
-                <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                <FontAwesomeIcon icon={faLinkedin} className='icon' />
               </a>
               <a
-                href="https://drive.google.com/file/d/1IH69h33fnN2PzJDMOKHQqDd1ia-UMF99/view?usp=sharing"
-                target="_blank"
+                href='https://drive.google.com/file/d/1631BrXgtp7UmsHl9GN_VGaQ_8t59mPuH/view?usp=sharing'
+                target='_blank'
               >
-                <FontAwesomeIcon icon={faFileAlt} className="icon" />
+                <FontAwesomeIcon icon={faFileAlt} className='icon' />
               </a>
             </div>
           </div>
         </div>
-        <div className="col__2">
+        <div className='col__2'>
           {/* <img src={contactImg} alt="" className="contact__img" /> */}
         </div>
       </div>
