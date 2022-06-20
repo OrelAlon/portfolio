@@ -280,7 +280,7 @@ function About() {
               </div>
               <div className='about__button d__flex align__items__center'>
                 <a
-                  href='https://drive.google.com/file/d/1631BrXgtp7UmsHl9GN_VGaQ_8t59mPuH/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1JIZoC32SOcUNA3SjbeIZvFnBJljZ8fqb/view?usp=sharing'
                   target='_blank'
                 >
                   <button className='about btn pointer'>Download Cv</button>
