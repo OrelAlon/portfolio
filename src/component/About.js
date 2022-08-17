@@ -29,6 +29,7 @@ function About() {
               </p>
               <h1 className=' my-skills'>My Skills</h1>
               <div className='grid-container'>
+                {/* js */}
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <path
@@ -41,6 +42,7 @@ function About() {
                     ></path>
                   </svg>
                 </div>
+                {/* react */}
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <g fill='#61DAFB'>
@@ -49,6 +51,7 @@ function About() {
                     </g>
                   </svg>
                 </div>
+                {/* html5 */}
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <path
@@ -69,7 +72,7 @@ function About() {
                     ></path>
                   </svg>
                 </div>
-
+                {/* html */}
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <path
@@ -98,6 +101,7 @@ function About() {
                     ></path>
                   </svg>
                 </div>
+                {/* עלה ירוק */}
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <path
@@ -198,6 +202,12 @@ function About() {
                     ></path>
                   </svg>
                 </div>
+                {/* firebase */}
+                {/* <img
+                  src='https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg'
+                  alt='NodeJS'
+                ></img> */}
+
                 <div>
                   <svg viewBox='0 0 128 128'>
                     <g fill='#f58220'>
