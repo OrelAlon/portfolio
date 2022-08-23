@@ -8,6 +8,7 @@ import Project2 from "../img/mine.png";
 import Project3 from "../img/dice.png";
 import Project4 from "../img/finder2.png";
 import Project5 from "../img/booking2.png";
+import Project6 from "../img/youtube.png";
 
 // https://www.befunky.com/create/
 // 950px width
@@ -32,6 +33,12 @@ function Portfolio() {
             href='https://nutrition-tracking-app.netlify.app/'
             git='https://github.com/OrelAlon/nutrition-app'
             name='Nutrition Tracking'
+          />
+          <Project
+            id={Project6}
+            href='https://warm-lokum-db00fa.netlify.app/'
+            git='https://github.com/OrelAlon/youtube-demo-app'
+            name='youtube-Demo-app'
           />
           <Project
             id={Project2}
