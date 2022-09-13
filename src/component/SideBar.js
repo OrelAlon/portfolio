@@ -37,7 +37,7 @@ const SideBar = () => {
           <HiOutlineMail size={30} className='social-icon' />
         </>
       ),
-      href: "orela231089@gmail.com",
+      href: "mailto:orela231089@gmail.com",
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ const SideBar = () => {
       <ul>
         {links.map(({ id, child, href, name, download }) => (
           <div key={id} className='side-bar'>
-            <span
+            <a
               id={name}
               href={href}
               download={download}
@@ -67,7 +67,7 @@ const SideBar = () => {
               rel='noreferrer'
             >
               {child}
-            </span>
+            </a>
           </div>
         ))}
       </ul>

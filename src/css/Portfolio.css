@@ -30,7 +30,7 @@ h1.heading {
   max-height: 500px;
 }
 img.project__img::after {
-  content: '';
+  content: "";
   width: 50%;
   height: 50%;
   background-color: #000;
@@ -54,7 +54,7 @@ img.project__img::after {
 }
 .project__box:hover img.project__img {
   transform: scale(1.1);
-  opacity: 0.3;
+  opacity: 0.15;
 }
 .project__meta.absolute {
   top: 0%;
@@ -68,12 +68,19 @@ img.project__img::after {
   border-radius: 10px;
   width: 100%;
 }
-
-.project__text {
+.project__stack {
   font-size: 1.8rem;
   font-weight: 700;
   padding-bottom: 20px;
-  text-decoration: underline;
+  color: #f9004d;
+}
+.project__text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #f9004d;
 }
 a.project__btn {
   padding: 12px 35px;
@@ -88,7 +95,7 @@ button.btn {
   border-radius: 5px;
   border: 2px solid #f9004d;
   background-color: #f9004d;
-  color: #fff !important;
+  color: #f9004d;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.4s all ease;
@@ -124,7 +131,6 @@ button.view__more:hover {
     font-weight: 700;
     font-size: 15px;
     padding-bottom: 20px;
-    text-decoration: underline;
   }
   .iconPro {
     font-size: 3rem;
