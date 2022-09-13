@@ -38,7 +38,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faLinkedin} className='icon' />
               </a>
               <a
-                href='https://drive.google.com/file/d/1rMOPBKDLAN2ziTrP8dMvhK_-6Y-Hlwb7/view?usp=sharing'
+                href='https://drive.google.com/file/d/1fonIgvZOaq02GsOI4SGhzEW3EsOkmN5U/view?usp=sharing'
                 target='_blank'
               >
                 <FontAwesomeIcon icon={faFileAlt} className='icon' />
