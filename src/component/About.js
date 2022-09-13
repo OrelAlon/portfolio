@@ -27,7 +27,7 @@ function About() {
                 through code, and I am excited to work alongside other amazing
                 programmers and learn so much more!
               </p>
-              <h1 className=' my-skills'>My Skills</h1>
+              <h5 className='my-skills'>My Skills</h5>
               <div className='grid-container'>
                 {/* js */}
                 <div>

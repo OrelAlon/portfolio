@@ -40,6 +40,10 @@ a.bottom__to__top {
 a.bottom__to__top.active {
   display: flex;
 }
+.my-skills {
+  font-size: 30px;
+  margin-top: 60px;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .p__color {
