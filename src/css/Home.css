@@ -9,6 +9,7 @@
 .logo img {
   border-radius: 50%;
   max-width: 100px;
+  cursor: pointer;
 }
 li.nav__items {
   font-size: 18px;
@@ -111,11 +112,11 @@ li.sideNavbar {
   .container-home {
     display: unset;
     margin-left: 30px;
-    margin-top: 50px;
-
-    background-color: pink;
+    margin-top: 80px;
   }
   h3.home__text {
+    margin-top: 80px;
+
     font-size: 30px;
     font-weight: 800;
     font-family: Raleway, sans-serif;
@@ -144,6 +145,9 @@ li.sideNavbar {
   }
 }
 @media only screen and (max-width: 425px) {
+  .home__bg {
+    height: 75vh;
+  }
   h2.home__text.pz__10 {
     font-size: 32px;
   }
@@ -163,21 +167,19 @@ li.sideNavbar {
   }
   .logo img {
     max-width: 50px;
+    cursor: pointer;
   }
   .container-home {
     float: none;
     margin-right: 0;
     width: auto;
-  }
-  .container-home {
     display: unset;
     margin-left: 30px;
-    margin-top: 50px;
-
-    background-color: pink;
+    margin-top: 180px;
   }
   h3.home__text {
     font-size: 25px;
+    margin-top: 80px;
 
     clear: unset;
     display: unset;
