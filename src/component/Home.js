@@ -20,51 +20,51 @@ function Home() {
           <div className='navigation pxy__30'>
             <ul className='navbar d__flex '>
               <Link to='Home' smooth={true} duration={1000}>
-                <div class='svg-wrapper nav__items mx__15'>
+                <div className='svg-wrapper nav__items mx__15'>
                   <svg
                     height='60'
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='220' />
+                    <rect className='shape' height='60' width='220' />
                   </svg>
-                  <div class='text'>Home</div>
+                  <div className='text'>Home</div>
                 </div>{" "}
               </Link>
               <Link to='About' smooth={true} duration={1000}>
-                <div class='svg-wrapper'>
+                <div className='svg-wrapper'>
                   <svg
                     height='60'
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='220' />
+                    <rect className='shape' height='60' width='220' />
                   </svg>
-                  <div class='text'>About</div>
+                  <div className='text'>About</div>
                 </div>{" "}
               </Link>
               <Link to='Portfolio' smooth={true} duration={1000}>
-                <div class='svg-wrapper'>
+                <div className='svg-wrapper'>
                   <svg
                     height='60'
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='220' />
+                    <rect className='shape' height='60' width='220' />
                   </svg>
-                  <div class='text'>Portfolio</div>
+                  <div className='text'>Portfolio</div>
                 </div>{" "}
               </Link>
               <Link to='Contact' smooth={true} duration={1000}>
-                <div class='svg-wrapper'>
+                <div className='svg-wrapper'>
                   <svg
                     height='60'
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='220' />
+                    <rect className='shape' height='60' width='220' />
                   </svg>
-                  <div class='text'>Contact</div>
+                  <div className='text'>Contact</div>
                 </div>{" "}
               </Link>
             </ul>

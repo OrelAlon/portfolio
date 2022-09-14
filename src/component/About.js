@@ -293,7 +293,11 @@ function About() {
                   href='https://drive.google.com/file/d/1fonIgvZOaq02GsOI4SGhzEW3EsOkmN5U/view?usp=sharing'
                   target='_blank'
                 >
-                  <button className='about btn pointer'>Download Cv</button>
+                  <div class='btn-container'>
+                    <button class='btn-6'>
+                      <span>Download Cv</span>
+                    </button>
+                  </div>
                 </a>
               </div>
             </div>
