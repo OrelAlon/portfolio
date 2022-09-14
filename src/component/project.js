@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -20,7 +20,6 @@ const Project = ({ obj }) => {
 
   return (
     <div
-      key={obj.id}
       onMouseEnter={(e) => showButton(e)}
       onMouseLeave={(e) => hideButton(e)}
       className='project__box pointer relative'

@@ -16,20 +16,56 @@ function Home() {
   return (
     <div className='home' id='Home'>
       <div className='home__bg'>
-        <div className='header d__flex align__items__center pxy__30'>
+        <div className='header d__flex align__items__center pxy__30 test'>
           <div className='navigation pxy__30'>
             <ul className='navbar d__flex '>
               <Link to='Home' smooth={true} duration={1000}>
-                <li className='nav__items mx__15 pointer'>Home</li>
+                <div class='svg-wrapper nav__items mx__15'>
+                  <svg
+                    height='60'
+                    width='320'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <rect class='shape' height='60' width='320' />
+                  </svg>
+                  <div class='text'>Home</div>
+                </div>{" "}
               </Link>
               <Link to='About' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>About</li>
+                <div class='svg-wrapper'>
+                  <svg
+                    height='60'
+                    width='320'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <rect class='shape' height='60' width='320' />
+                  </svg>
+                  <div class='text'>About</div>
+                </div>{" "}
               </Link>
               <Link to='Portfolio' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>Portfolio</li>
+                <div class='svg-wrapper'>
+                  <svg
+                    height='60'
+                    width='320'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <rect class='shape' height='60' width='320' />
+                  </svg>
+                  <div class='text'>Portfolio</div>
+                </div>{" "}
               </Link>
               <Link to='Contact' smooth={true} duration={1000}>
-                <li className='nav__items mx__15'>Contact</li>
+                <div class='svg-wrapper'>
+                  <svg
+                    height='60'
+                    width='320'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <rect class='shape' height='60' width='320' />
+                  </svg>
+                  <div class='text'>Contact</div>
+                </div>{" "}
               </Link>
             </ul>
           </div>
@@ -48,8 +84,10 @@ function Home() {
         </div>
         {/* HOME CONTENT */}
         <div className='container-home'>
-          <div className='home__meta'>
-            <h1 className='home__text pz__10'>WELCOME</h1>
+          <div className='home__meta typewriter'>
+            <h1 className='home__text pz__10' id='ani'>
+              WELCOME
+            </h1>
             <h4 className='home__text pz__10'> I’m Orel Alon,</h4>
             <h3 className='home__text sweet pz__10'>Full Stack Developer.</h3>
             {/* <h4 className='home__text pz__10'>From Israel.</h4> */}

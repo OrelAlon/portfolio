@@ -102,7 +102,7 @@ p {
 .pointer {
   cursor: pointer;
 }
-svg {
+.grid-container svg {
   stroke-width: 1 !important;
 }
 .relative {
@@ -168,7 +168,7 @@ button.about.btn.pointer:hover {
   }
 }
 
-svg {
+.grid-container svg {
   height: 100px;
   width: 100px;
 }
