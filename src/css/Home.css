@@ -106,16 +106,18 @@ li.sideNavbar {
   position: relative;
   top: 20%;
   transform: translateY(-50%);
-  width: 320px;
+  width: 220px;
   overflow: hidden;
   text-align: center;
   cursor: pointer;
+  margin: 0;
+  margin-top: 10px;
 }
 
 .shape {
   fill: transparent;
   stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
+  stroke-dashoffset: -323;
   stroke-width: 8px;
   stroke: #f9004d;
 }
@@ -132,7 +134,7 @@ li.sideNavbar {
 @keyframes draw {
   0% {
     stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
+    stroke-dashoffset: -323;
     stroke-width: 8px;
   }
   100% {
@@ -146,7 +148,9 @@ li.sideNavbar {
   -webkit-animation: 0.5s draw linear forwards;
   animation: 0.5s draw linear forwards;
 }
-
+.test {
+  max-width: 100vw;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .header {
@@ -197,7 +201,7 @@ li.sideNavbar {
   .test {
     max-width: 100%;
     height: 25vh;
-    background-color: #f9004d;
+    background-color: rgb(19, 17, 17);
   }
   .svg-wrapper {
     margin: 5px;
@@ -215,7 +219,7 @@ li.sideNavbar {
     font-weight: bold;
   }
   .text:hover {
-    text-decoration: underline;
+    color: #f9004d;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -237,7 +241,7 @@ li.sideNavbar {
     cursor: pointer;
   }
   .pxy__30 {
-    padding: 3px;
+    padding: 18px;
   }
   .logo img {
     max-width: 50px;

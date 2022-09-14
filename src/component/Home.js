@@ -26,7 +26,7 @@ function Home() {
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='320' />
+                    <rect class='shape' height='60' width='220' />
                   </svg>
                   <div class='text'>Home</div>
                 </div>{" "}
@@ -38,7 +38,7 @@ function Home() {
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='320' />
+                    <rect class='shape' height='60' width='220' />
                   </svg>
                   <div class='text'>About</div>
                 </div>{" "}
@@ -50,7 +50,7 @@ function Home() {
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='320' />
+                    <rect class='shape' height='60' width='220' />
                   </svg>
                   <div class='text'>Portfolio</div>
                 </div>{" "}
@@ -62,7 +62,7 @@ function Home() {
                     width='320'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <rect class='shape' height='60' width='320' />
+                    <rect class='shape' height='60' width='220' />
                   </svg>
                   <div class='text'>Contact</div>
                 </div>{" "}
