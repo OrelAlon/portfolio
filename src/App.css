@@ -177,7 +177,6 @@ button.about.btn.pointer:hover {
     ". . . "
     ". . . "
     ". . . ";
-  margin-left: -120px;
 }
 
 .git {
@@ -196,9 +195,36 @@ button.about.btn.pointer:hover {
   img.project__img {
     margin: 20px;
   }
+  .tech-icon {
+    width: 40px;
+  }
+
+  .tech-stack {
+    height: 60px;
+    width: 60px;
+  }
 }
 @media only screen and (max-width: 625px) {
   img.project__img {
     margin: 20px;
+  }
+
+  .tech-icon {
+    width: 40px;
+  }
+
+  .tech-stack {
+    height: 60px;
+    width: 60px;
+  }
+
+  @media only screen and (max-width: 475px) {
+    img.project__img {
+      margin: 20px;
+    }
+
+    .tech-icon {
+      width: 20px;
+    }
   }
 }

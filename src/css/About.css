@@ -164,17 +164,6 @@ button:hover span::after {
 
   transform: scale(1.2);
 }
-
-.grid-container {
-  margin: auto;
-}
-
-/* RESPONSIVE */
-@media only screen and (max-width: 900px) {
-  .p__color {
-    font-size: 15px !important;
-  }
-}
 .tech-stack {
   padding: 10px;
   text-align: center;
@@ -185,4 +174,28 @@ button:hover span::after {
 }
 .tech-icon {
   width: 50px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+  .p__color {
+    font-size: 15px !important;
+  }
+
+  @media only screen and (max-width: 625px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 15px 5px;
+      grid-template-areas:
+        ". ."
+        ". ."
+        ". .";
+      /* margin-left: -30px; */
+    }
+    .tech-stack {
+      width: 140px;
+      height: 95px;
+    }
+  }
 }

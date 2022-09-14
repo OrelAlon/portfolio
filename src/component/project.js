@@ -22,7 +22,7 @@ const Project = ({ obj }) => {
     <div
       onMouseEnter={(e) => showButton(e)}
       onMouseLeave={(e) => hideButton(e)}
-      className='project__box pointer relative margin-p'
+      className='project__box pointer relative'
     >
       <div className='project__box__img pointer relative'>
         <div className='project__img__box'>
