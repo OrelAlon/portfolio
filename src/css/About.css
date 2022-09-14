@@ -186,24 +186,3 @@ button:hover span::after {
 .tech-icon {
   width: 50px;
 }
-
-@media only screen and (max-width: 525px) {
-  button.about.btn.pointer {
-    text-transform: capitalize;
-    width: 165px;
-    height: 540px;
-    font-size: 13px;
-    transition: 0.4s ease;
-  }
-  .tech-stack {
-    padding: 10px;
-    text-align: center;
-    margin: auto;
-    margin: 5px;
-    width: 100px;
-    height: 80px;
-  }
-  .tech-icon {
-    width: 50px;
-  }
-}

@@ -268,6 +268,17 @@ li.sideNavbar {
     font: bold 200% Consolas, Monaco, monospace;
   }
 }
+@media only screen and (max-width: 668px) {
+  .typewriter h4 {
+    margin-left: 160px;
+    font: bold 200% Consolas, Monaco, monospace;
+  }
+  .typewriter h3 {
+    margin-left: 80px;
+
+    font: bold 200% Consolas, Monaco, monospace;
+  }
+}
 @media only screen and (max-width: 425px) {
   .home__bg {
     height: 75vh;
@@ -342,5 +353,32 @@ li.sideNavbar {
   }
   .test {
     height: 15vh;
+  }
+  button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 540px;
+    font-size: 13px;
+    transition: 0.4s ease;
+  }
+  .tech-stack {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+    width: 100px;
+    height: 80px;
+  }
+  .tech-icon {
+    width: 50px;
+  }
+  .typewriter h4 {
+    margin: auto;
+    font: bold 200% Consolas, Monaco, monospace;
+    font-size: 20px;
+  }
+  .typewriter h3 {
+    font-size: 22px;
+    margin: auto;
   }
 }
