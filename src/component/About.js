@@ -99,7 +99,7 @@ const About = () => {
                 {techs.map(({ id, src, title, style }) => (
                   <div key={id} className={`tech-stack ${style}`}>
                     <img src={src} alt='' className='tech-icon' />
-                    {/* <p className='icon-title'>{title}</p> */}
+                    <p className='icon-title'>{title}</p>
                   </div>
                 ))}
 

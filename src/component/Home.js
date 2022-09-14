@@ -85,11 +85,11 @@ function Home() {
         {/* HOME CONTENT */}
         <div className='container-home'>
           <div className='home__meta typewriter'>
-            <h1 className='home__text pz__10' id='ani'>
+            {/* <h1 className='home__text pz__10' id='ani'>
               WELCOME
-            </h1>
-            <h4 className='home__text pz__10'> I’m Orel Alon,</h4>
-            <h3 className='home__text sweet pz__10'>Full Stack Developer.</h3>
+            </h1> */}
+            <h4 className='home__text pz__10 anim'> I’m Orel Alon,</h4>
+            <h3 className=' sweet pz__10 anim'>Full Stack Developer.</h3>
             {/* <h4 className='home__text pz__10'>From Israel.</h4> */}
           </div>
 

@@ -4,7 +4,7 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
 }
 .logo img {
   border-radius: 50%;
@@ -94,7 +94,7 @@ li.sideNavbar {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 /* animation  */
@@ -151,6 +151,43 @@ li.sideNavbar {
 .test {
   max-width: 100vw;
 }
+
+/* head */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter h4 {
+  font: bold 200% Consolas, Monaco, monospace;
+  border-right: 0.1em solid;
+  width: 16.5em; /* fallback */
+  width: 14ch; /* # of chars */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(30, end),
+    /* # of steps = # of chars */ blink-caret 0.2s step-end infinite alternate;
+}
+
+.typewriter h3 {
+  font: bold 200% Consolas, Monaco, monospace;
+  border-right: 0.1em solid;
+  width: 16.5em; /* fallback */
+  width: 21ch; /* # of chars */
+  margin: 2em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(30, end),
+    /* # of steps = # of chars */ blink-caret 0.2s step-end infinite alternate;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .header {
@@ -167,10 +204,10 @@ li.sideNavbar {
   .container-home {
     display: unset;
     margin-left: 30px;
-    margin-top: 80px;
+    margin-top: 180px;
   }
   h3.home__text {
-    margin-top: 80px;
+    margin-top: 180px;
 
     font-size: 30px;
     font-weight: 800;
@@ -220,6 +257,15 @@ li.sideNavbar {
   }
   .text:hover {
     color: #f9004d;
+  }
+  .typewriter h4 {
+    margin-left: 250px;
+    font: bold 200% Consolas, Monaco, monospace;
+  }
+  .typewriter h3 {
+    margin-left: 190px;
+
+    font: bold 200% Consolas, Monaco, monospace;
   }
 }
 @media only screen and (max-width: 425px) {
