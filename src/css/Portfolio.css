@@ -6,6 +6,7 @@ img.project__img {
   transition: 0.4s;
   /* opacity: 0.7; */
   position: relative;
+  margin: 20px;
 }
 h1.heading {
   margin-bottom: 10px;

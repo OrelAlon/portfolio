@@ -58,7 +58,7 @@ function Portfolio() {
         <h1 className='heading'>Some Of My Project's... </h1>
       </div>
       <div className='container'>
-        <div className='row'>
+        <div className='row margin-p'>
           {portfolios.map(({ id, src, demo, code, stack, story }) => (
             <>
               {" "}

@@ -134,7 +134,7 @@ const About = () => {
             width='16'
             height='16'
             fill='currentColor'
-            className='bi bi-chevron-up white'
+            className='bi bi-chevron-up white-text'
             viewBox='0 0 16 16'
           >
             <path
