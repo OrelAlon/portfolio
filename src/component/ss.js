@@ -1,25 +1,3 @@
-<div class='col' ontouchstart="this.classList.toggle('hover');">
-  <div class='container'>
-    <div
-      class='front'
-      style='background-image: url(https://unsplash.it/500/500/)'
-    >
-      <div class='inner'>
-        <p>OREL</p>
-        <span>Orl</span>
-      </div>
-    </div>
-    <div class='back'>
-      <div class='inner'>
-        <p>text when flif</p>
-      </div>
-    </div>
-  </div>
-</div>;
-
-//
-//
-//
 import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -71,5 +49,3 @@ const Project = ({ obj }) => {
 };
 
 export default Project;
-
-// https://codepen.io/nicolaspavlotsky/details/wqGgLO

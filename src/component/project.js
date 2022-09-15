@@ -20,28 +20,25 @@ const Project = ({ obj }) => {
 
   return (
     <div
+      class='flip-card'
       onMouseEnter={(e) => showButton(e)}
       onMouseLeave={(e) => hideButton(e)}
-      className='project__box pointer relative'
     >
-      <div className='project__box__img pointer relative'>
-        <div className='project__img__box'>
-          <img src={obj.src} alt='' className='project__img' />
+      <div class='flip-card-inner'>
+        <div class='flip-card-front'>
+          <img src={obj.src} alt='Avatar' />
         </div>
-        <div className='mask__effect'></div>
-      </div>
-      <div className={display}>
-        <div className='project__meta absolute '>
-          <h5 className='project__stack'>{obj.stack}</h5>
-          <p className='project__text'>{obj.story}</p>
-          <div>
-            <a href={obj.code} target='_blank'>
-              <FontAwesomeIcon icon={faGithub} className='iconPro' />
-            </a>
-            <a href={obj.demo} target='_blank'>
-              <FontAwesomeIcon icon={faExternalLinkAlt} className='iconPro' />
-            </a>
+        <div class='flip-card-back'>
+          <div className='card-text'>
+            <h1>{obj.stack}</h1>
+            <p>{obj.story}</p>
           </div>
+          <a href={obj.code} target='_blank'>
+            <FontAwesomeIcon icon={faGithub} className='iconPro' />
+          </a>
+          <a href={obj.demo} target='_blank'>
+            <FontAwesomeIcon icon={faExternalLinkAlt} className='iconPro' />
+          </a>
         </div>
       </div>
     </div>
