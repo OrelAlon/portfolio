@@ -155,8 +155,6 @@ button.view__more:hover {
   perspective: 1000px;
   margin: 20px;
   border-radius: 20px;
-
-  /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.834); */
 }
 
 .flip-card-front img {
@@ -227,12 +225,14 @@ button.view__more:hover {
   font-size: 5rem;
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 475px) {
   .flip-card {
-    height: 48vh;
+    width: 295px;
+    height: 430px;
   }
 
   .flip-card-front img {
-    height: 48vh;
+    width: 295px;
+    height: 430px;
   }
 }
