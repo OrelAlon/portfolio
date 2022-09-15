@@ -29,7 +29,7 @@ const Project = ({ obj }) => {
           <img src={obj.src} alt='Avatar' />
         </div>
         <div class='flip-card-back'>
-          <div className='card-text'>
+          <div className='card-text inner'>
             <h1>{obj.stack}</h1>
             <p>{obj.story}</p>
           </div>

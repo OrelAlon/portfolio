@@ -135,7 +135,7 @@ button.view__more:hover {
     padding-bottom: 20px;
   }
   .iconPro {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 25px;
   }
   h1.heading {
@@ -150,8 +150,8 @@ button.view__more:hover {
 
 .flip-card {
   background-color: transparent;
-  width: 20vw;
-  height: 58vh;
+  width: 375px;
+  height: 500px;
   perspective: 1000px;
   margin: 20px;
   border-radius: 20px;
@@ -160,8 +160,8 @@ button.view__more:hover {
 }
 
 .flip-card-front img {
-  width: 20vw;
-  height: 58vh;
+  width: 375px;
+  height: 500px;
   border-radius: 20px;
 }
 .flip-card-inner {
@@ -191,7 +191,6 @@ button.view__more:hover {
 }
 
 .flip-card-front {
-  /* background-color: #bbb; */
   color: black;
 }
 
@@ -199,7 +198,8 @@ button.view__more:hover {
   background-image: url(https://unsplash.it/500/500/);
   color: black;
   transform: rotateY(180deg);
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  border-radius: 20px;
 }
 .flip-card-back h1 {
   color: black;
@@ -214,12 +214,19 @@ button.view__more:hover {
   font-size: 22px;
   max-width: 90%;
   background-color: #f9004d;
+  border-radius: 10px;
   margin: auto;
   margin-top: 40px;
 }
+.card-text h1 {
+  background-color: #f9004d;
+  border-radius: 10px;
+}
 .iconPro {
   margin-top: 80px;
+  font-size: 5rem;
 }
+
 @media only screen and (max-width: 675px) {
   .flip-card {
     height: 48vh;
