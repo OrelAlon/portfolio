@@ -150,16 +150,16 @@ button.view__more:hover {
 
 .flip-card {
   background-color: transparent;
-  width: 375px;
-  height: 500px;
+  width: 285px;
+  height: 385px;
   perspective: 1000px;
   margin: 20px;
   border-radius: 20px;
 }
 
 .flip-card-front img {
-  width: 375px;
-  height: 500px;
+  width: 285px;
+  height: 385px;
   border-radius: 20px;
 }
 .flip-card-inner {
@@ -199,9 +199,7 @@ button.view__more:hover {
   /* opacity: 0.8; */
   border-radius: 20px;
 }
-.flip-card-back h1 {
-  color: black;
-}
+
 .card-text,
 .card-text h1 {
   margin-top: 40px;
@@ -219,10 +217,13 @@ button.view__more:hover {
 .card-text h1 {
   background-color: #f9004d;
   border-radius: 10px;
+  color: black;
+
+  font-size: smaller;
 }
 .iconPro {
   margin-top: 80px;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 @media only screen and (max-width: 475px) {
