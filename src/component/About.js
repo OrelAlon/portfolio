@@ -107,7 +107,7 @@ const About = () => {
               </div>
               <div className='about__button d__flex align__items__center'>
                 <a
-                  href='https://drive.google.com/file/d/1fonIgvZOaq02GsOI4SGhzEW3EsOkmN5U/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1hcPCp5qgC1VxfjHoJODdC_9StGpswLxZ/view?usp=sharing'
                   target='_blank'
                 >
                   <div class='btn-container'>
