@@ -14,7 +14,7 @@ const SideBar = () => {
           <FaLinkedin className='social-icon' />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/orel-alon-090689184/",
       style: "rounded-tr-md",
     },
     {
