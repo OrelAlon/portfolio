@@ -96,6 +96,7 @@ p {
 }
 .component__space {
   padding: 100px 0px;
+  width: 100%;
 }
 .pointer {
   cursor: pointer;

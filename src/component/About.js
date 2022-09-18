@@ -102,20 +102,6 @@ const About = () => {
                     <p className='icon-title'>{title}</p>
                   </div>
                 ))}
-
-                {/* cv button */}
-              </div>
-              <div className='about__button d__flex align__items__center'>
-                <a
-                  href='https://drive.google.com/file/d/1hcPCp5qgC1VxfjHoJODdC_9StGpswLxZ/view?usp=sharing'
-                  target='_blank'
-                >
-                  <div class='btn-container'>
-                    <button class='btn-6'>
-                      <span>Download Cv</span>
-                    </button>
-                  </div>
-                </a>
               </div>
             </div>
           </div>
