@@ -18,54 +18,64 @@ const About = () => {
       src: html,
       title: "HTML",
       style: "orange",
+      herf: "https://html.com/",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
       style: "blue",
+
+      herf: " https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
       id: 3,
       src: javascript,
       title: "Java Script",
       style: "yellow",
+      herf: "https://www.javascript.com/",
     },
     {
       id: 4,
       src: mongodb,
       title: "MongoDB",
       style: "green",
+      herf: "https://www.mongodb.com/",
     },
     {
       id: 5,
       src: ubuntu,
       title: "Ubuntu",
       style: "orange",
+      herf: "https://ubuntu.com/",
     },
     {
       id: 6,
       src: nodejs,
       title: "Node JS",
       style: "green",
+      herf: "https://nodejs.org/en/",
     },
     {
       id: 7,
       src: reactImage,
       title: "React",
       style: "blue",
+      herf: "https://reactjs.org/",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "white",
+      herf: "https://github.com/",
     },
     {
       id: 9,
       src: vscode,
       title: "Visual Code",
       style: "blue",
+      herf: "https://code.visualstudio.com/",
     },
   ];
 
@@ -96,11 +106,16 @@ const About = () => {
               <h5 className='my-skills'>My Skills</h5>
               <div className='grid-container'>
                 {/* techs */}
-                {techs.map(({ id, src, title, style }) => (
-                  <div key={id} className={`tech-stack ${style}`}>
+                {techs.map(({ id, src, title, style, herf }) => (
+                  <a
+                    key={id}
+                    className={`tech-stack ${style}`}
+                    href={herf}
+                    target='_blank'
+                  >
                     <img src={src} alt='' className='tech-icon' />
                     <p className='icon-title'>{title}</p>
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>
