@@ -90,7 +90,9 @@ function Home() {
             </h1> */}
             <h4 className='home__text pz__10 anim'> I’m Orel Alon,</h4>
             <h3 className=' sweet pz__10 anim'>Full Stack Developer.</h3>
-            {/* <h4 className='home__text pz__10'>From Israel.</h4> */}
+            {/* <h5 className='home-text'>
+              My focus is on the MERN Stack and I am passionate about coding
+            </h5> */}
           </div>
 
           <div className='profile-img-div'>

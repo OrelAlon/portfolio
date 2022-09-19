@@ -96,10 +96,9 @@ const About = () => {
             <div className='about__meta'>
               {/*  */}
               <p className='about__text p__color'>
-                I'm a Web Developer with a focus on the MERN Stack, still
-                exploring other technologies and frameworks that catch my
-                interest! Recently, I graduated from the AppleSeeds Full-Stack
-                Bootcamp. I am passionate about coding and solving problems
+                Graduate of “Appleseeds Academy” Full Stack Developer Bootcamp.
+                Still exploring other technologies and frameworks that catch my
+                interest! Recently, I am passionate about solving problems
                 through code, and I am excited to work alongside other amazing
                 programmers and learn so much more!
               </p>

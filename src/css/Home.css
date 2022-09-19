@@ -181,7 +181,7 @@ li.sideNavbar {
   border-right: 0.1em solid;
   width: 16.5em; /* fallback */
   width: 21ch; /* # of chars */
-  margin: 2em 1em;
+  margin: 1em 1em;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 5s steps(30, end),
