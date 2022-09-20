@@ -358,9 +358,9 @@ span {
     font-size: 12px;
     cursor: pointer;
   }
-  .pxy__30 {
+  /* .pxy__30 {
     padding: 18px;
-  }
+  } */
   .logo img {
     max-width: 50px;
     cursor: pointer;
@@ -413,7 +413,7 @@ span {
     text-decoration: underline;
   }
   .test {
-    height: 15vh;
+    height: 12vh;
   }
   button.about.btn.pointer {
     text-transform: capitalize;

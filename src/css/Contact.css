@@ -67,7 +67,9 @@ button.btn.contact.pointer {
   .icon {
     font-size: 30px;
   }
-
+  h1.hire__text {
+    margin-left: 0;
+  }
   .contact__box {
     margin: auto;
     text-align: center;

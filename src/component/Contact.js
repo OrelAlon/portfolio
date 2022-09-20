@@ -15,7 +15,7 @@ function Contact() {
         <div className='col__2'>
           <div className='contact__box'>
             <div className='contact__meta'>
-              <h1 className='hire__text'>Contact Me. </h1>{" "}
+              <h1 className='hire__text'>Contact Me</h1>{" "}
               {/* <p className='hire__text white'>I am looking for my first job:</p> */}
               <p className='hire__text white-text'>
                 <a href='tel:+972526707895'>
