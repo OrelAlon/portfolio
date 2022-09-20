@@ -84,12 +84,15 @@ function Home() {
         </div>
         {/* HOME CONTENT */}
         <div className='container-home'>
-          <div className='home__meta typewriter'>
-            <h5 className='bold-font'> I’m Orel Alon,</h5>
-            <h5 className='red-color bold-font'>Full Stack Developer</h5>
+          <div className='home__meta typewriter '>
+            <h5 className='bold-font fixit'> I’m Orel Alon,</h5>
+            <h5 className='red-color bold-font fixit'>Full Stack Developer</h5>
 
-            <h5 className='margin-space'> My focus is on the MERN-STACK</h5>
-            <h5> and I am passionate about coding</h5>
+            <h5 className='margin-space fixit'>
+              {" "}
+              My focus is on the MERN-STACK
+            </h5>
+            <h5 className='fixit'> and I am passionate about coding</h5>
             {/* <p>
               <span>Final/Blinking Line</span> <span>|</span>
             </p> */}

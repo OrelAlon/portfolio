@@ -270,7 +270,7 @@ span {
   }
   .container-home {
     display: unset;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-top: 180px;
   }
   h3.home__text {
@@ -291,7 +291,7 @@ span {
     font-size: 25px;
   }
   .home__meta {
-    /* margin-left: 30px; */
+    margin-left: 30px;
     text-align: center;
   }
   .profile-img {
@@ -325,19 +325,13 @@ span {
   .text:hover {
     color: #f9004d;
   }
-  .typewriter h4 {
-    margin-left: 250px;
-    font: bold 200% Consolas, Monaco, monospace;
-  }
-  .typewriter h3 {
-    margin-left: 190px;
-
-    font: bold 200% Consolas, Monaco, monospace;
-  }
 }
 @media only screen and (max-width: 668px) {
   .typewriter {
     margin: auto;
+  }
+  .fixit {
+    margin-left: 100px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -373,21 +367,8 @@ span {
     margin-left: 30px;
     margin-top: 180px;
   }
-  h3.home__text {
-    font-size: 25px;
-    margin-top: 80px;
-
-    clear: unset;
-    display: unset;
-    overflow: unset;
-    white-space: unset;
-  }
-
-  h4.home__text {
-    font-size: 20px;
-  }
   .home__meta {
-    /* margin-left: 30px; */
+    margin-left: 30px;
     text-align: center;
   }
   .profile-img {
