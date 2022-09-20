@@ -85,14 +85,14 @@ function Home() {
         {/* HOME CONTENT */}
         <div className='container-home'>
           <div className='home__meta typewriter'>
-            {/* <h1 className='home__text pz__10' id='ani'>
-              WELCOME
-            </h1> */}
-            <h4 className='home__text pz__10 anim'> I’m Orel Alon,</h4>
-            <h3 className=' sweet pz__10 anim'>Full Stack Developer.</h3>
-            {/* <h5 className='home-text'>
-              My focus is on the MERN Stack and I am passionate about coding
-            </h5> */}
+            <h5 className='bold-font'> I’m Orel Alon,</h5>
+            <h5 className='red-color bold-font'>Full Stack Developer</h5>
+
+            <h5 className='margin-space'> My focus is on the MERN-STACK</h5>
+            <h5> and I am passionate about coding</h5>
+            {/* <p>
+              <span>Final/Blinking Line</span> <span>|</span>
+            </p> */}
           </div>
 
           <div className='profile-img-div'>
