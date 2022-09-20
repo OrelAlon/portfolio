@@ -331,7 +331,12 @@ span {
     margin: auto;
   }
   .fixit {
-    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 425px) {
