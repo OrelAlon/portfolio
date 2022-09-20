@@ -420,7 +420,10 @@ span {
     width: 50px;
   }
   .typewriter h5 {
-    font-size: 14px;
+    font-size: 17px;
+  }
+  .bold-font {
+    font-size: 20px;
   }
   .fixit {
     margin-left: 0;
