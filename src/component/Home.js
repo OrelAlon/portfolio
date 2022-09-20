@@ -92,7 +92,10 @@ function Home() {
               {" "}
               My focus is on the MERN-STACK
             </h5>
-            <h5 className='fixit'> and I am passionate about coding</h5>
+            <h5 className='fixit red-color'>
+              {" "}
+              and I am passionate about coding
+            </h5>
             {/* <p>
               <span>Final/Blinking Line</span> <span>|</span>
             </p> */}
