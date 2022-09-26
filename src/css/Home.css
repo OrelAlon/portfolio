@@ -557,3 +557,17 @@ button:hover span::after {
   margin-left: 500px;
   margin-bottom: 100px;
 }
+
+/* img animation */
+.example1 img {
+  animation: profile-img-div 10s linear;
+}
+/* Move it (define the animation) */
+@keyframes profile-img-div {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
