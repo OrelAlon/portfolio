@@ -56,7 +56,7 @@ function Portfolio() {
       demo: "https://cocky-dijkstra-a469d1.netlify.app/",
       code: "https://github.com/OrelAlon/Minecraft-2D-Game",
       stack: "Vanilla JavaScript",
-      story: "Minecrage game created with matrix construction",
+      story: "Minecraft game created with matrix",
     },
   ];
 
