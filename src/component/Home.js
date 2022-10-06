@@ -109,7 +109,7 @@ function Home() {
         {/* cv button */}
         <div className='about__button d__flex align__items__center cv-btn'>
           <a
-            href='https://drive.google.com/file/d/1hcPCp5qgC1VxfjHoJODdC_9StGpswLxZ/view?usp=sharing'
+            href='https://drive.google.com/file/d/1RKQsbx4uZ8CDZrFKvv1SXCTBVvrXfsqp/view?usp=sharing'
             target='_blank'
           >
             <div class='btn-container'>
