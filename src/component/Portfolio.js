@@ -39,7 +39,7 @@ function Portfolio() {
       src: foodbook,
       demo: "https://orel-foodbook-app.herokuapp.com/login",
       code: "https://github.com/OrelAlon/booking-app",
-      stack: "MERN - Stack",
+      stack: "mern - stack",
       story: "Sharing photos of food from restaurants",
     },
     {

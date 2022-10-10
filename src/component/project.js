@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 import "../css/Portfolio.css";
 
@@ -37,7 +37,8 @@ const Project = ({ obj }) => {
             <FontAwesomeIcon icon={faGithub} className='iconPro' />
           </a>
           <a href={obj.demo} target='_blank'>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className='iconPro' />
+            {/* <FontAwesomeIcon icon='fa-solid fa-globe' className='iconPro' /> */}
+            <FontAwesomeIcon icon={faGlobe} className='iconPro' />
           </a>
         </div>
       </div>

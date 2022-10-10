@@ -13,6 +13,7 @@ h1.heading {
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   font-size: 40px;
+  font-weight: bold;
 }
 .heading {
   max-width: 90%;
@@ -119,7 +120,7 @@ button.view__more:hover {
 .iconPro {
   font-size: 4rem;
   margin: 25px;
-  color: #f9004d;
+  /* color: #f9004d; */
 }
 
 .iconPro:hover {
@@ -210,7 +211,7 @@ button.view__more:hover {
 .card-text h1 {
   margin-top: 40px;
   font-size: larger;
-  font-family: Consolas, Monaco, monospace;
+  font-family: Montserrat, sans-serif;
 }
 .card-text p {
   font-size: 22px;
