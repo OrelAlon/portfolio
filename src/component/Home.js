@@ -107,7 +107,7 @@ function Home() {
           </div>
         </div>
         {/* cv button */}
-        <div className='about__button d__flex align__items__center cv-btn'>
+        {/* <div className='about__button d__flex align__items__center cv-btn'>
           <a
             href='https://drive.google.com/file/d/1vWG9lBkIrcDSTFJyQjKbYpDnxLt09LrN/view?usp=sharing'
             target='_blank'
@@ -118,7 +118,7 @@ function Home() {
               </button>
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
