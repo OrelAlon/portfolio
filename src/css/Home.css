@@ -4,7 +4,7 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 95vh;
 }
 .logo img {
   border-radius: 50%;
@@ -298,7 +298,7 @@ a.bottom__to__top.active {
   text-align: center;
 }
 .btn-6 {
-  margin-right: -370px;
+  margin-right: -230px;
 }
 button {
   display: inline-block;
