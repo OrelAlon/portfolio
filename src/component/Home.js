@@ -105,20 +105,21 @@ function Home() {
           <div className='profile-img-div'>
             <img className='profile-img' src={me} />
           </div>
+          {/* cv button */}
+          <div className='about__button d__flex align__items__center cv-btn disphone'>
+            <a
+              href='https://drive.google.com/file/d/1vWG9lBkIrcDSTFJyQjKbYpDnxLt09LrN/view?usp=sharing'
+              target='_blank'
+            >
+              <div class='btn-container'>
+                <button class='btn-6'>
+                  <span>Download Cv</span>
+                </button>
+              </div>
+            </a>
+          </div>
+          {/* end cv */}
         </div>
-        {/* cv button */}
-        {/* <div className='about__button d__flex align__items__center cv-btn'>
-          <a
-            href='https://drive.google.com/file/d/1vWG9lBkIrcDSTFJyQjKbYpDnxLt09LrN/view?usp=sharing'
-            target='_blank'
-          >
-            <div class='btn-container'>
-              <button class='btn-6'>
-                <span>Download Cv</span>
-              </button>
-            </div>
-          </a>
-        </div> */}
       </div>
     </div>
   );
