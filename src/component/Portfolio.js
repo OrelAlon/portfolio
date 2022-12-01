@@ -7,8 +7,10 @@ import "..//css/Portfolio.css";
 import food from "../img/food.png";
 import mine from "../img/mine.png";
 import dice from "../img/dice.png";
-import foodbook from "../img/foodbook.png";
+import todo from "../img/todo.png";
 import Project from "./project";
+
+import foodbook from "../img/foodbook.png";
 
 // https://www.befunky.com/create/
 // 950px width
@@ -44,6 +46,14 @@ function Portfolio() {
     },
     {
       id: 3,
+      src: todo,
+      demo: "https://todotask-typescript-react.netlify.app/",
+      code: "https://github.com/OrelAlon/typescript-app",
+      stack: "Type-Script",
+      story: "Task list build with type script and react",
+    },
+    {
+      id: 4,
       src: dice,
       demo: "https://awesome-turing-93446d.netlify.app/",
       code: "https://github.com/OrelAlon/Dice-Game",
@@ -51,7 +61,7 @@ function Portfolio() {
       story: "Easy dice game for 2 players",
     },
     {
-      id: 4,
+      id: 5,
       src: mine,
       demo: "https://cocky-dijkstra-a469d1.netlify.app/",
       code: "https://github.com/OrelAlon/Minecraft-2D-Game",
