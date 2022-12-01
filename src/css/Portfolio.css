@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 img.project__img {
   border-radius: 20px;
   width: 75%;
@@ -11,7 +13,7 @@ img.project__img {
 h1.heading {
   margin-bottom: 10px;
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: "Neucha", cursive;
   font-size: 40px;
   font-weight: bold;
 }
@@ -211,7 +213,6 @@ button.view__more:hover {
 .card-text h1 {
   margin-top: 40px;
   font-size: larger;
-  font-family: Montserrat, sans-serif;
 }
 .card-text p {
   font-size: 22px;
@@ -220,13 +221,14 @@ button.view__more:hover {
   border-radius: 10px;
   margin: auto;
   margin-top: 40px;
+  text-decoration: none;
 }
 .card-text h1 {
   /* background-color: #f9004d; */
   border-radius: 10px;
   color: #f9004d;
-
-  font-size: smaller;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .iconPro {
   margin-top: 80px;

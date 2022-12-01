@@ -391,6 +391,9 @@ button:hover span::after {
     transform: translateX(0%);
   }
 }
+.typewriter h5 {
+  font-size: 32px;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .header {

@@ -41,7 +41,7 @@ function Portfolio() {
       src: foodbook,
       demo: "https://foodbook.onrender.com/login",
       code: "https://github.com/OrelAlon/booking-app",
-      stack: "mern - stack",
+      stack: "MERN - Stack",
       story: "Sharing photos of food from restaurants",
     },
     {
@@ -65,8 +65,8 @@ function Portfolio() {
       src: mine,
       demo: "https://cocky-dijkstra-a469d1.netlify.app/",
       code: "https://github.com/OrelAlon/Minecraft-2D-Game",
-      stack: "Vanilla JavaScript",
-      story: "Minecraft game created with matrix",
+      stack: "Vanilla JS",
+      story: "Minecraft game created with only vanilla javscript using matrix",
     },
   ];
 

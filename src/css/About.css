@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 .about {
   background: #191919;
+  font-family: "Neucha", cursive;
 }
+
 img.about__img {
   border-radius: 10px;
   width: 100%;
@@ -9,7 +13,7 @@ h1.about__heading {
   margin-bottom: 10px;
   font-weight: 700;
   text-align: start;
-  font-family: Montserrat, sans-serif;
+  font-family: "Neucha", cursive;
   font-size: 60px;
 }
 /* tech-icon
@@ -61,10 +65,15 @@ h1.about__heading {
 .tech-icon {
   width: 50px;
 }
+.p__color {
+  font-family: "Neucha", cursive;
+  font-size: 22px;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 900px) {
   .p__color {
     font-size: 15px !important;
+    font-family: "Neucha", cursive;
   }
 
   @media only screen and (max-width: 625px) {

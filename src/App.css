@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: "Neucha", cursive;
 }
+
 body {
   width: 100%;
   height: 100%;
@@ -21,9 +23,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 18px;
+  font-size: 26px;
   color: #fff;
-  font-family: Poppins, sans-serif;
+  font-family: "Neucha", cursive;
 }
 li {
   overflow: hidden;
@@ -32,8 +34,8 @@ li {
   display: block;
 } */
 p {
-  font-size: 16px;
-  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-family: "Neucha", cursive;
 }
 .white-text {
   color: #fff !important;
