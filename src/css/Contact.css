@@ -1,6 +1,9 @@
 .contact {
   background-color: #191919;
 }
+.icons {
+  margin-left: -30px;
+}
 h1.hire__text {
   font-size: 60px;
   margin-left: 25px;
