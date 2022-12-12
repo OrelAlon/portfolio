@@ -32,8 +32,11 @@ function Portfolio() {
       id: 1,
       src: food,
       demo: "https://nutrition-tracking-app.netlify.app/",
+
       code: "https://github.com/OrelAlon/nutrition-app",
-      stack: "ReactJS",
+      name: "Nutrition-app",
+
+      stack: ["react", "js", "external API"],
       story: "Calculate your BMR and keep track of what you ate ",
     },
     {
@@ -41,23 +44,28 @@ function Portfolio() {
       src: foodbook,
       demo: "https://foodbook.onrender.com/login",
       code: "https://github.com/OrelAlon/booking-app",
-      stack: "MERN - Stack",
-      story: "Sharing photos of food from restaurants",
+      name: "Foodbook",
+
+      stack: ["ReactJS", "NodeJS", "MongoDB", "Express"],
+      story: "Sharing photos of dishes from restaurants",
     },
     {
       id: 3,
       src: todo,
       demo: "https://todotask-typescript-react.netlify.app/",
       code: "https://github.com/OrelAlon/typescript-app",
-      stack: "Type-Script",
-      story: "Task list build with type script and react",
+      name: "Todo",
+      stack: ["ReactJS", "Type-Script"],
+      story: "Follow up on tasks and their execution",
     },
     {
       id: 4,
       src: dice,
       demo: "https://awesome-turing-93446d.netlify.app/",
       code: "https://github.com/OrelAlon/Dice-Game",
-      stack: "ReactJS",
+      name: "Dice-Game",
+
+      stack: ["ReactJS"],
       story: "Easy dice game for 2 players",
     },
     {
@@ -65,8 +73,10 @@ function Portfolio() {
       src: mine,
       demo: "https://cocky-dijkstra-a469d1.netlify.app/",
       code: "https://github.com/OrelAlon/Minecraft-2D-Game",
-      stack: "Vanilla JS",
-      story: "Minecraft game created with only vanilla javscript using matrix",
+      name: "Minecraft",
+
+      stack: ["vanilla javscript"],
+      story: "Minecraft game build using matrix",
     },
   ];
 
@@ -77,10 +87,13 @@ function Portfolio() {
       </div>
       <div className='container'>
         <div className='row margin-p'>
-          {portfolios.map(({ id, src, demo, code, stack, story }) => (
+          {portfolios.map(({ id, src, demo, code, name, stack, story }) => (
             <>
               {" "}
-              <Project key={id} obj={{ id, src, demo, code, stack, story }} />
+              <Project
+                key={id}
+                obj={{ id, src, demo, code, name, stack, story }}
+              />
             </>
           ))}
         </div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -8,6 +8,14 @@ import "../css/Portfolio.css";
 
 const Project = ({ obj }) => {
   const [display, setDisplay] = useState("notdisplayed");
+  const [stack, setStack] = useState([]);
+
+  useEffect(() => {
+    setStack(obj.stack);
+    console.log(stack);
+    console.log(obj.stack);
+  }, [obj]);
+
   const showButton = (e) => {
     e.preventDefault();
     setDisplay("displayed");
@@ -30,8 +38,15 @@ const Project = ({ obj }) => {
         </div>
         <div class='flip-card-back'>
           <div className='card-text inner'>
-            <h1>{obj.stack}</h1>
+            <h1>{obj.name}</h1>
             <p>{obj.story}</p>
+            <div className='stack-div'>
+              <ul>
+                {obj.stack.map((s) => (
+                  <li className='stack-list'>{s}</li>
+                ))}
+              </ul>
+            </div>
           </div>
           <a href={obj.code} target='_blank'>
             <FontAwesomeIcon icon={faGithub} className='iconPro' />
