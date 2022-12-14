@@ -10,7 +10,6 @@ import github from "../assets/github.png";
 import ubuntu from "../assets/ubuntu.png";
 import vscode from "../assets/vscode.png";
 
-// import aboutImg from './img/about.jpg';
 const About = () => {
   const techs = [
     {
