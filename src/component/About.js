@@ -97,9 +97,9 @@ const About = () => {
               <p className='about__text p__color'>
                 Graduate of “Appleseeds Academy” Full Stack Developer Bootcamp.
                 Still exploring other technologies and frameworks that catch my
-                interest! Recently, I am passionate <about></about> solving
-                problems through code, and I am excited to work alongside other
-                amazing programmers and learn so much more!!
+                interest! I am passionate about solving problems through code,
+                and I am excited to work alongside other amazing programmers and
+                learn so much more!!
               </p>
 
               <h5 className='my-skills'>My Skills</h5>
