@@ -108,7 +108,7 @@ function Home() {
           {/* cv button */}
           <div className='about__button d__flex align__items__center cv-btn disphone'>
             <a
-              href='https://drive.google.com/file/d/1rhqXfkXVWRTh_ZexpUyf6rEERdDWEwpR/view?usp=sharing'
+              href='https://drive.google.com/file/d/1cmnvZl-lBD85br5w5tJORF-F6hEz8Vlc/view?usp=sharing'
               target='_blank'
             >
               <div class='btn-container'>
