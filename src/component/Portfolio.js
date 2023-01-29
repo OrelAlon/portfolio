@@ -42,8 +42,8 @@ function Portfolio() {
     {
       id: 2,
       src: foodbook,
-      demo: "https://foodbook.onrender.com/login",
-      code: "https://github.com/OrelAlon/booking-app",
+      demo: "https://foodbook.onrender.com/",
+      code: "https://github.com/OrelAlon/foodbook-app",
       name: "Foodbook",
 
       stack: ["ReactJS", "NodeJS", "MongoDB", "Express"],
